@@ -6,7 +6,7 @@ class Day1:
 
     def loadData(self):
         try:
-            with open('Data/Day1Input.txt', 'r') as file:
+            with open('../Data/Day1Input.txt', 'r') as file:
                 for line in file:
                     splitline = line.split('   ')
                     self.leftList.append(int(splitline[0]))
