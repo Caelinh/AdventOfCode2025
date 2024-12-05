@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5908427-ee81-46ff-becb-50d21688382a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Day2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Day1Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Day2Example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Day2Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Day3Example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Day3Input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day2/RedNosedReports.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/MullItOver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Day1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Day1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Day1Part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Day1Part2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2pfpL3RhNVMaR3CZDVUM3ksqZq9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,10 +46,14 @@
   "keyToString": {
     "Python tests.Python tests for Day1Test.MyTestCase.executor": "Run",
     "Python tests.Python tests for Day1Test.TestDay1.test_findDistance.executor": "Run",
+    "Python tests.Python tests for Tests.TestDay1.test_findDistance.executor": "Run",
+    "Python tests.Python tests for Tests.TestDay2.test_findSimilarity.executor": "Run",
+    "Python tests.Python tests for Tests.TestDay3.executor": "Debug",
+    "Python tests.Python tests for Tests.TestDay3.test_findValidReports.executor": "Run",
     "Python.Day 1.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "day2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day1" />
       <recent name="$PROJECT_DIR$/Tests" />
     </key>
   </component>
@@ -79,6 +92,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for Tests.TestDay1.test_findDistance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="AdventOfCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Tests.TestDay1.test_findDistance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for Tests.TestDay2.test_findSimilarity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="ENV_FILES" value="" />
@@ -95,44 +124,45 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Tests.Tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for Tests.TestDay3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests.Tests&quot;" />
+      <option name="_new_target" value="&quot;Tests.TestDay3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for Tests.Tests.TestDay1.test_findDistance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for Tests.TestDay3.test_findValidReports" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="AdventOfCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Tests.Tests.TestDay1.test_findDistance&quot;" />
+      <option name="_new_target" value="&quot;Tests.TestDay3.test_findValidReports&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for Tests.TestDay3.test_findValidReports" />
+        <item itemvalue="Python tests.Python tests for Tests.TestDay3" />
+        <item itemvalue="Python tests.Python tests for Tests.TestDay1.test_findDistance" />
         <item itemvalue="Python tests.Python tests for Tests.TestDay2.test_findSimilarity" />
-        <item itemvalue="Python tests.Python tests for Tests.Tests.TestDay1.test_findDistance" />
-        <item itemvalue="Python tests.Python tests for Tests.Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +182,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733166924839</updated>
-      <workItem from="1733166926412" duration="4932000" />
+      <workItem from="1733166926412" duration="16059000" />
+      <workItem from="1733237865181" duration="8175000" />
     </task>
     <servers />
   </component>
@@ -161,7 +192,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AdventOfCode$Day_1.coverage" NAME="Day 1 Coverage Results" MODIFIED="1733168514376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AdventOfCode$.coverage" NAME=" Coverage Results" MODIFIED="1733170831492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AdventOfCode$main.coverage" NAME="main Coverage Results" MODIFIED="1733171684690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AdventOfCode$.coverage" NAME=" Coverage Results" MODIFIED="1733239079585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tests" />
+    <SUITE FILE_PATH="coverage/AdventOfCode$main.coverage" NAME="main Coverage Results" MODIFIED="1733363197836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
